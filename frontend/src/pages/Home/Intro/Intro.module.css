@@ -1,0 +1,124 @@
+
+.introSection{
+  width: 1200px;
+  margin: 100px auto 0px auto;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  justify-content: space-between;
+  z-index: 2;
+  position: relative;
+}
+.introSection-left h1{
+   font-size:3.8rem;
+   line-height: 4.6rem;
+   
+}
+
+.introP{
+  width: 70%;
+  color: var(--textColor);
+  font-size: 18px;
+  margin:  22px 0px;
+  line-height: 1.9rem;
+}
+.introButtons{
+  display: flex;
+  width: 65%;
+  justify-content: space-between; 
+ 
+}
+.introButtons a{ 
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 15px 22px;
+  color: white;
+  background-color: var(--backgroundColor);
+  box-shadow: 10px 10px 47px -5px rgba(55,52,169,0.75);
+}
+
+.play-button{
+  display: flex;
+}
+.play-button p{
+  align-self: center;
+  font-weight: bold;
+  color:var(--backgroundColor);
+  margin-left: 15px;
+}
+.play-cover{
+  background-color: #22D497;
+  padding: 0px 17px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introSection-right{
+  
+  width: 550px;
+  border-radius: 15px;
+  height: 450px;
+  background: url('../../../assets/intro4.svg') no-repeat center center;
+  background-size: 550px;
+  transform: translateY(-60px);
+  background-color: #F5F6F8;
+ 
+
+}
+.image1{
+  width: 250px;
+  transform: translate(203px,33px);
+}
+.image2{
+  width: 350px;
+  transform: translate(-90px,-320px);
+}
+.image3{
+  transform: translate(-110px,-420px);
+}
+.image4{
+  transform: translate(0px,-920px);
+}
+
+.string{
+
+  height: 50px;
+  width: 1600px;
+  margin: 0px auto;
+  
+}
+
+.deco1{
+  position: relative;
+  z-index: -1;
+  transform: translate(0px,-600px);
+}
+.deco2{
+  position: relative;
+  z-index: -1;
+  transform: translate(0px,-1100px);
+}
+
+@media screen and (max-width: 500px) {
+  .introSection{
+    width: 90%;
+  margin: 100px auto 0px auto;
+  display: grid;
+  grid-template-columns: repeat(1,auto);
+  justify-content: space-between;
+  z-index: 2;
+  position: relative;
+  }
+  .introSection-left{
+
+    margin-bottom: 50px;
+  }
+  .introSection-left h1{
+    width: 70%;
+    font-size: 40px;
+    line-height: 50px;
+  }
+ 
+
+}

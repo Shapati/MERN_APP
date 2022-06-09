@@ -1,0 +1,20 @@
+.sponsor{
+  width: 1200px;
+  margin: 20px auto;
+
+}
+.sponsor h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sponsor-img{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .sponsor{
+    width: 90%;
+    
+  }
+}

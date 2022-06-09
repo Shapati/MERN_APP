@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --backgroundColor: #3734A9;
+}
+
+/* #1B4177--blue kinda color
+#D89FFF--pink kinda color
+#3E8BFE-- light blue
+#40EEFF-- green kinda */
+
+body {
+  font-family: 'Questrial', sans-serif;
+ 
+}
+.signup{
+  width: 500px;
+  margin: 50px auto;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 40px auto;
+}
+.navlinks{
+  display: flex;
+}
+.navlinks a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+.dashboard {
+  text-align: center;
+}

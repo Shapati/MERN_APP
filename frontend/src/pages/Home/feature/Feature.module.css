@@ -1,0 +1,43 @@
+.feature{
+  width: 1200px;
+  margin: 30px auto;
+}
+.feature-grid{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+}
+.feature-left{
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.feature-left h4{
+  color: var(--backgroundColor);
+  margin-bottom: 30px;
+}
+.feature-left h1{
+  font-size: 55px;
+}
+.feature-left p{
+  width: 85%;
+  color: var(--textColor);
+  font-size: 17px;
+  margin:  22px 0px;
+  line-height: 1.7rem;
+}
+.feature-left a{
+  text-decoration: none;
+  width: 24%;
+  border-radius: 5px;
+  padding: 15px 22px;
+  color: white;
+  background-color: var(--backgroundColor);
+  box-shadow: 10px 10px 47px -5px rgba(55,52,169,0.75);
+}
+.feature-right{
+  background: url('../../../assets/feature.svg') center center/cover;
+  width: 600px;
+  height: 600px; 
+}
